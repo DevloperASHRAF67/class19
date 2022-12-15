@@ -1,0 +1,246 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+h1, h2 , h3 , h4, p, a{
+    text-decoration: none;
+    text-transform: capitalize;
+    font-family: 'Anek Devanagari', sans-serif;
+    font-family: 'Rubik', sans-serif;
+}
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: block;
+
+}
+img{
+    max-width: 100%;
+}
+.widthfix{
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* .menu */
+
+.menu{
+    background: rgb(3, 3, 83);
+    padding: 20px 0px;
+}
+.left-menu{
+    float: left;
+    width: 40%;
+}
+.left-menu img{
+    width: 70px;
+    height: 40px;
+}
+.right-menu{
+    float: right;
+    width: 60%;
+}
+.right-menu ul{
+    list-style: none;
+    text-align: center;
+}
+.right-menu ul li{
+    display: inline-block;
+    padding: 10px 40px;
+
+}
+.right-menu ul li a{
+    color: #fff;
+    transition: .8s;
+}
+.right-menu a:hover{
+    color: red;
+}
+/*  conteiner */
+.container-fluid{
+    background: url(./All\ Images/intro-bg.jpg) center center no-repeat;
+    background-size: cover;
+    padding: 500px 0px;
+    text-align: center;
+    color: #fff;
+}
+.container-fluidr h1{
+    padding: 30px 0px;
+    font-size: 45px;
+    font-weight: 400;
+}
+.container-fluid p{
+    font-size: 22px;
+    padding: 0px 0px 30px;
+    line-height: 35px;
+}
+.container-fluid a{
+    color: #fff;
+    background: blue;
+    display: inline-block;
+    padding: 15px 30px;
+    border-radius: 5px;
+    transition: .8s;
+}
+.container-fluid a:hover{
+    background: rgb(6, 6, 110);
+    color: red;
+}
+/*  team */
+.team{
+    text-align: center;
+    background: rgb(120, 120, 168);
+}
+.team h1{
+    font-size: 70px;
+    padding-top: 200px;
+    padding-bottom: 70px;
+    font-weight: 400;
+
+}
+.team-list{
+    float: left;
+    width: 25%;
+    text-align: center;
+    margin-right: 8%;
+    margin-top: 60px;
+    margin-bottom: 100px;
+
+}
+.team-list h4{
+    font-weight: 400;
+    padding: 10px 0px;
+}
+.team p{
+    font-size: 20px;
+    line-height: 25px;
+    margin-bottom: 20px;
+}
+.team-list img{
+    width: 250px;
+    height: 350px;
+}
+.team-list a{
+    display: inline-block;
+    color: #fff;
+    background: blue;
+    border-radius: 5px;
+    padding: 10px 25px;
+    transition: .8s;
+}
+.team-list a:hover{
+    background: rgb(6, 6, 110);
+    color: red;
+}
+/* about */
+.about{
+    background: rgb(148, 188, 204);
+    text-align: left;
+    padding-bottom: 150px;
+    
+}
+.about h1{
+    font-size: 70px;
+    padding-top: 200px;
+    padding-bottom: 70px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.left-about{
+    float: left;
+    width: 48%;
+}
+.left-about img {
+    display: inline-block;
+    width: 165px;
+    height: 170px;
+    margin-bottom: -70px;
+}
+.left-about ul{
+    display: inline-block;
+    list-style: none;
+    margin-left: 60px;
+    padding-bottom: 90px;
+    line-height: 30px;
+}
+.right-about{
+    float: right;
+    width: 48%;
+}
+.right-about h2{
+    padding-bottom: 20px;
+    font-weight: 400;
+}
+.right-about p{
+    padding-bottom: 30px;
+    font-size: 16px;
+}
+.left-about p{
+    font-size: 18px;
+    text-align: justify;
+}
+/* contect */
+.conte{
+    background: rgb(233, 233, 233);
+    padding-bottom: 100px;
+
+}
+.conte h1{
+    font-size: 70px;
+    padding: 100px 0px 70px;
+    font-weight: 400;
+    text-align: center;
+
+}
+.left-co{
+    float: left;
+    width: 48%;
+    text-align: left;
+}
+.right-co {
+    float: right;
+    width: 46%;
+    font-size: 20px;
+    text-transform: capitalize;
+    
+}
+.right-co input{
+    width: 90%;
+    height: 40px;
+    padding: 0px 20px;
+    border: 1px solid rgb(206, 201, 201);
+}
+::placeholder{
+    font-size: 18px;
+    text-transform: capitalize;
+}
+.right-co textarea{
+    width: 97%;
+    height: 150px;
+    border: 1px solid rgb(206, 201, 201);
+}
+.right-co button{
+    color: #fff;
+    background: blue;
+    padding: 12px 25px;
+    border-radius: 3px;
+    border: none;
+    margin-top: 20px;
+    font-size: 20px;
+    transition: .8s;
+}
+.right-co button:hover{
+    color: red;
+    background: rgb(2, 2, 122);
+}
+/* footer */
+.footer{
+    background: blue;
+    padding: 40px 0px;
+}
+.footer p{
+    font-size: 20px ;
+    color: #fff;
+    text-align: center;
+}
